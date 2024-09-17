@@ -58,10 +58,25 @@ body{
     font-size: 1rem;
 }
 
+.font-size3{
+    font-size: 1.4rem;
+}
+
 .vertical-al-mid{
     vertical-align: middle;
 }
 /* #endregion utilities */
+
+/* #region spacing */
+.pb-2{
+    padding-bottom: 1rem;
+}
+
+.mb-2{
+    margin-bottom: 1rem;
+}
+
+/* #endregion spacing */
 
 /* #region d-flex */
 .d-flex{
@@ -73,6 +88,10 @@ body{
     flex-direction: column;
 }
 
+.prova{
+    justify-content: end;
+    flex-grow: 1;
+}
 /* #endregion d-flex*/
 
 /* #region top */
@@ -121,6 +140,16 @@ body{
 
     .add-playlist{
         font-size: 30px;
+    }
+
+    .border-bottom{
+        content: "";
+        display: block;
+        width: 11rem;
+        height: 1px;
+        background-color: #6e6e6e;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
