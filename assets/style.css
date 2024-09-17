@@ -78,7 +78,7 @@ body{
     }
     i{
         color: #6e6e6e;
-        padding-right: 0.5rem;
+        
     }
 
     li{
@@ -86,8 +86,15 @@ body{
         
     }
 
-    li:hover{
+    .icon-hover:hover{
+        
         color: white;
+        
+    }
+    .icon-text{
+        padding-left: 0.5rem;
+        font-family: initial;
+
     }
 }
 
