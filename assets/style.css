@@ -1,0 +1,24 @@
+/* #region common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug *{
+    border: 1px dashed;
+}
+
+/* #endregion common */
+
+/* #region utilities */
+
+/* #endregion utilities */
+
+/* #region top */
+
+/* #endregion top */
+
+/* #region bottom */
+
+/* #endregion bottom */
