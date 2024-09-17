@@ -278,6 +278,19 @@ body{
         margin-top: 0.5rem;
         margin-left: 0.5rem;
     }
+
+    .icon-text, .d-none-sm{
+        display: none;
+    }
+
+    .m-14{
+        margin-left: 14px;
+    }
+
+    .m-11{
+        margin-left: 11px;
+    }
+    
 }
 
 
