@@ -9,16 +9,49 @@
     border: 1px dashed;
 }
 
+body{
+    overflow: hidden;
+}
 /* #endregion common */
 
 /* #region utilities */
-
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
 /* #endregion utilities */
 
 /* #region top */
 
+.top{
+    height: calc(100% - 80px);
+    overflow-y: auto;
+}
+
+.sidebar{
+    width: 245px;  
+    background-color: black;
+    
+}
+
+.content{
+    width: calc(100% - 245px);
+    
+    background-color: #151922;
+    height: 1500px;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
 /* #endregion top */
 
 /* #region bottom */
 
+.bottom{
+    height: 80px;
+    
+    background-color: #282828;
+}
 /* #endregion bottom */
