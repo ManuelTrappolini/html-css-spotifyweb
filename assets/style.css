@@ -53,11 +53,24 @@ body{
 .color-white{
     color: white;
 }
+
+.font-size2{
+    font-size: 1rem;
+}
+
+.vertical-al-mid{
+    vertical-align: middle;
+}
 /* #endregion utilities */
 
 /* #region d-flex */
 .d-flex{
     display: flex;
+}
+
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
 }
 
 /* #endregion d-flex*/
@@ -69,17 +82,19 @@ body{
 }
 
 .sidebar{
+    padding-left: 2rem;
+    color: #6e6e6e;
     width: 245px;
     background-color: black;
     ul{
-        color: #6e6e6e;
-        margin-left: 1rem;
+    
         margin-top:1rem
     }
+
     i{
         color: #6e6e6e;
-        
     }
+
 
     li{
         padding-bottom: 0.5rem;
@@ -96,12 +111,23 @@ body{
         font-family: initial;
 
     }
+
+    h4{
+        padding-top: 1rem;
+        margin-bottom: 0.5rem;
+        color: white;
+
+    }
+
+    .add-playlist{
+        font-size: 30px;
+    }
 }
 
 .main-logo{
     width: 150px;
     margin-top: 1rem;
-    margin-left: 1rem;
+    
 }
 
 .content{
@@ -211,6 +237,10 @@ body{
 
     .main-logo{
         display: none;
+    }
+
+    .sidebar{
+        padding: 0;
     }
 
     .small-logo{
