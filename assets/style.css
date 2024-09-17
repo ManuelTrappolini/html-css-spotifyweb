@@ -10,6 +10,7 @@
 }
 
 body{
+    height: 100vh;
     overflow: hidden;
 }
 /* #endregion common */
@@ -24,8 +25,7 @@ body{
 /* #region top */
 
 .top{
-    height: calc(100% - 80px);
-    overflow-y: auto;
+    height: calc(100% - 80px);  
 }
 
 .sidebar{
@@ -36,9 +36,8 @@ body{
 
 .content{
     width: calc(100% - 245px);
-    
+    overflow-y: auto;
     background-color: #151922;
-    height: 1500px;
 }
 
 .container{
@@ -51,7 +50,11 @@ body{
 
 .bottom{
     height: 80px;
-    
     background-color: #282828;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
 }
 /* #endregion bottom */
