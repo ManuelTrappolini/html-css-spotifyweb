@@ -45,6 +45,14 @@ body{
 .d-none{
     display: none;
 }
+
+.list-unstyled{
+    list-style: none;
+}
+
+.color-white{
+    color: white;
+}
 /* #endregion utilities */
 
 /* #region d-flex */
@@ -63,7 +71,24 @@ body{
 .sidebar{
     width: 245px;
     background-color: black;
-    
+    ul{
+        color: #6e6e6e;
+        margin-left: 1rem;
+        margin-top:1rem
+    }
+    i{
+        color: #6e6e6e;
+        padding-right: 0.5rem;
+    }
+
+    li{
+        padding-bottom: 0.5rem;
+        
+    }
+
+    li:hover{
+        color: white;
+    }
 }
 
 .main-logo{
