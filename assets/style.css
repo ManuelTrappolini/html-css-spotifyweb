@@ -93,6 +93,14 @@ body{
     padding-top: 1rem;
 }
 
+.pl-1{
+    padding-left: 0.5rem;
+}
+
+.pl-2{
+    padding-left: 1rem;
+}
+
 .mb-2{
     margin-bottom: 1rem;
 }
@@ -111,6 +119,10 @@ body{
 
 .justify-content-end{
     justify-content: end;
+}
+
+.align-item-center{
+    align-items: center;
 }
 
 .justify-content-center{
@@ -216,7 +228,6 @@ a:hover .img-cover{
 .main-logo{
     width: 150px;
     margin-top: 1rem;
-    
 }
 
 .content{
@@ -224,6 +235,7 @@ a:hover .img-cover{
     overflow-y: auto;
     background-color: #151922;
     font-family: sans-serif;
+    overflow-x: hidden;
 
     
 
@@ -234,6 +246,12 @@ a:hover .img-cover{
 
    
 }
+
+/* .p-sticky{
+    position: sticky;
+    top: 0;
+    background-color: black;
+} */
 
 .topbar{
     height: 80px;
@@ -250,6 +268,10 @@ a:hover .img-cover{
 
 h4,h6{
     text-align: center;
+}
+
+.playlist{
+    text-align: left;
 }
 
 h6{
@@ -307,6 +329,27 @@ h2{
     height: 80px;
     background-color: #282828;
     width: 100%;
+
+    h4{
+        color: #FAFCFD;
+        text-align: left;
+    }
+
+    h5{
+        color: #7F7F7F;
+        text-decoration: none;
+    }
+}
+
+.img-player{
+    width: 15%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.fa-heart, .fa-folder{
+    margin-left: 1rem;
+    color: #7F7F7F;
 }
 
 /* #endregion bottom */
