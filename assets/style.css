@@ -74,6 +74,10 @@ body{
     font-size: 1.4rem;
 }
 
+.font-size4{
+    font-size: 2rem;
+}
+
 .vertical-al-mid{
     vertical-align: middle;
 }
@@ -131,6 +135,10 @@ body{
 
 .gap{
     gap: 1rem;
+}
+
+.gap2{
+    gap: 2rem;
 }
 
 .flex-grow{
@@ -337,19 +345,38 @@ h2{
 
     h5{
         color: #7F7F7F;
+    
+    }
+
+    a{
         text-decoration: none;
+        
+    }
+
+    h5:hover{
+        color: white;
+        text-decoration: underline;
     }
 }
 
 .img-player{
-    width: 15%;
+    width: 12%;
     padding-top: 1rem;
     padding-left: 1rem;
 }
 
 .fa-heart, .fa-folder{
-    margin-left: 1rem;
+    margin-left: 1.5rem;
     color: #7F7F7F;
+    margin-top: 1rem;
+}
+
+.bigger:hover{
+    font-size: 2.3rem;
+}
+
+.pt-1{
+    margin-top: 0.5rem;
 }
 
 /* #endregion bottom */
