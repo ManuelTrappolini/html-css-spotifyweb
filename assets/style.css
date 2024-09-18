@@ -224,16 +224,8 @@ a:hover .img-cover{
     overflow-y: auto;
     background-color: #151922;
     font-family: sans-serif;
-    .topbar{
-        height: 80px;
-        background: black;
-        opacity:0.20;
-        z-index: 1;
-        display: flex;
-        justify-content: end;
-        align-items: baseline;
-        align-items: center;
-    }
+
+    
 
     h4{
         color: white;
@@ -241,6 +233,19 @@ a:hover .img-cover{
     }
 
    
+}
+
+.topbar{
+    height: 80px;
+    background: black;
+    opacity:0.20;
+    z-index: 1;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 h4,h6{
@@ -252,15 +257,23 @@ h6{
     margin-bottom: 1rem;
 }
 
+.icon-hover{
+    text-decoration: none;
+}
+
 .upgrade{
     border: 1px solid white;
     color: white;
-    opacity: ;
     display: block;
     margin-right: 1rem;
     padding: 10px 20px;
     border-radius: 30px;
-    
+}
+
+.upgrade:hover{
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 18px;
 }
 
 .container{
