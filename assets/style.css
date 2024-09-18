@@ -104,7 +104,9 @@ body{
     padding-left: 2rem;
     color: #6e6e6e;
     width: 245px;
+    height: 100%;
     background-color: black;
+    overflow: hidden ;
     ul{
     
         margin-top:1rem
@@ -163,6 +165,27 @@ body{
     width: calc(100% - 245px);
     overflow-y: auto;
     background-color: #151922;
+    .topbar{
+        height: 80px;
+        background: black;
+        opacity:0.20;
+        z-index: 1;
+        display: flex;
+        justify-content: end;
+        align-items: baseline;
+        align-items: center;
+
+    }
+}
+
+.upgrade{
+    border: 1px solid white;
+    color: white;
+    display: block;
+    margin-right: 1rem;
+    padding: 10px 20px;
+    border-radius: 30px;
+    
 }
 
 .container{
@@ -258,6 +281,7 @@ body{
 
      .sidebar{
         width: 50px;
+        padding: 0;
     }
 
     .content{
@@ -266,10 +290,6 @@ body{
 
     .main-logo{
         display: none;
-    }
-
-    .sidebar{
-        padding: 0;
     }
 
     .small-logo{
@@ -289,8 +309,11 @@ body{
 
     .m-11{
         margin-left: 11px;
-    }
+
     
+    }
+  
+
 }
 
 
