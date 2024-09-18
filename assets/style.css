@@ -47,6 +47,11 @@ body{
     max-width: 100%;
 }
 
+.img-cover{
+    max-width: 85%;
+    margin-left: 16px;
+}
+
 .d-none{
     display: none;
 }
@@ -113,7 +118,9 @@ body{
     flex-grow: 1;
 }
 
-
+.space-evenly{
+    justify-content: space-evenly;
+}
 /* #endregion d-flex*/
 
 /* #region top */
@@ -193,7 +200,7 @@ body{
         justify-content: end;
         align-items: baseline;
         align-items: center;
-
+        
     }
 }
 
@@ -217,7 +224,13 @@ body{
     color: #6e6e6e;
     text-decoration: none;
     font-size: 0.9rem;
-    font-family: fantasy
+    font-family: fantasy;
+}
+
+h2{
+    color: #FAFCFD;
+    margin: 2rem 1rem;
+    font-family: sans-serif;
 }
 /* #endregion top */
 
@@ -244,6 +257,10 @@ body{
     
     .col-4-lg{
         width: calc(100%/12*4)
+    }
+
+    .col-3-lg{
+        width: calc(100%/12*3)
     }
     
     .col-2-lg{
