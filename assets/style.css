@@ -51,6 +51,7 @@ body{
     max-width: 85%;
     margin-left: 16px;
     padding-bottom: 1rem;
+    display: block;
 }
 
 .d-none{
@@ -76,6 +77,11 @@ body{
 .vertical-al-mid{
     vertical-align: middle;
 }
+
+.p-relative{
+    position: relative;
+}
+
 /* #endregion utilities */
 
 /* #region spacing */
@@ -183,6 +189,30 @@ body{
     color: white; 
 }
 
+.play{
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    top: 34%;
+    left: 39%;
+    font-size: 50px;
+}
+
+a:hover .play{
+    color: white;
+    visibility: visible;
+
+}
+
+a:hover .img-cover{
+    opacity: 0.5;
+}
+
+.fa-circle-play{
+    color: white;
+}
+
 .main-logo{
     width: 150px;
     margin-top: 1rem;
@@ -209,7 +239,6 @@ body{
         color: white;
         margin-bottom: 0.5rem;
     }
-
 
    
 }
@@ -248,13 +277,15 @@ h6{
 
 h2{
     color: #FAFCFD;
-    margin: 2rem 1rem;
+    margin: 2rem 1rem 1rem 1rem;
 }
 
 .tips{
     text-align: left;
     margin: 2rem 1rem;
 }
+
+
 /* #endregion top */
 
 /* #region bottom */
