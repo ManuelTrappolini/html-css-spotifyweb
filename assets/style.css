@@ -66,6 +66,10 @@ body{
     color: white;
 }
 
+.font-size1{
+    font-size: 0.8rem;
+}
+
 .font-size2{
     font-size: 1rem;
 }
@@ -147,6 +151,10 @@ body{
 
 .space-evenly{
     justify-content: space-evenly;
+}
+
+.justify-content-base{
+    justify-content: baseline;
 }
 /* #endregion d-flex*/
 
@@ -372,11 +380,15 @@ h2{
 }
 
 .bigger:hover{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .pt-1{
-    margin-top: 0.5rem;
+    padding-top: 1rem;
+}
+
+.pb-1{
+    padding-bottom: 0.5rem;
 }
 
 .music-bar{
@@ -384,12 +396,28 @@ h2{
     display: inline-block;
     border: 3px solid white;
     border-radius: 5px;
-    width: 20rem;
+    width: 3rem;
+}
+
+.music-bar2{
+    content: "";
+    display: inline-block;
+    border: 3px solid #5B5B5B;
+    border-radius: 5px;
+    width: 10rem;
 }
 
 .nowrap{
     flex-wrap: nowrap;
 }
+
+.space-evenly
+
+.heigth100{
+    height: 100%;
+}
+
+
 
 /* #endregion bottom */
 
