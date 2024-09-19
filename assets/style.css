@@ -436,14 +436,25 @@ h2{
     border-radius: 6px;
     display: inline-block;
     display: none;
-    vertical-align: middle;
-    
+    vertical-align: middle; 
 }
 
+.circle:hover .music-bar{
+
+        border: 3px solid orange;
+}
 
 .dot:hover .circle, .music-bar{
     display:inline-block;
+
+    
 }
+
+.dot:hover .music-bar2{
+    width: calc(10rem - 12px);
+}
+
+
 
 /* #endregion bottom */
 
@@ -535,6 +546,10 @@ h2{
 
     .menu-player{
         font-size: 13px;
+    }
+
+    .dot:hover .music-bar2{
+        width: calc(6rem - 12px);
     }
 }
 
@@ -629,6 +644,10 @@ h2{
     .menu-player{
         font-size: 13px;
         
+    }
+
+    .dot:hover .music-bar2{
+        width: calc(3rem - 12px);
     }
 }
 
