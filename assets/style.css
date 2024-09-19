@@ -18,6 +18,11 @@ body{
 /* #endregion common */
 
 /* #region utilities */
+[class^="col-"]{
+    padding: 0 0.5rem;
+    
+}
+
 .col-12{
     width: 100%;
 }
@@ -48,10 +53,11 @@ body{
 }
 
 .img-cover{
-    max-width: 85%;
-    margin-left: 16px;
-    padding-bottom: 1rem;
-    display: block;
+    max-width: 100%;
+}
+
+.img-radius{
+    border-radius: 50%;
 }
 
 .d-none{
@@ -113,6 +119,17 @@ body{
     margin-bottom: 1rem;
 }
 
+.pt-1{
+    padding-top: 1rem;
+}
+
+.pb-1{
+    padding-bottom: 0.5rem;
+}
+
+.marg{
+    margin: 0 6px;
+}
 /* #endregion spacing */
 
 /* #region d-flex */
@@ -153,6 +170,10 @@ body{
     justify-content: space-evenly;
 }
 
+.space-between{
+    justify-content: space-between;
+}
+
 .justify-content-base{
     justify-content: baseline;
 }
@@ -161,7 +182,7 @@ body{
 /* #region top */
 
 .top{
-    height: calc(100% - 80px);
+    height: calc(100% - 90px);
     
 }
 
@@ -172,7 +193,6 @@ body{
     height: 100%;
     background-color: black;
     overflow: hidden ;
-    overflow-y: auto;
 
     ul{
         margin-top:1rem
@@ -218,13 +238,12 @@ body{
 }
 
 .play{
-    display: block;
-    position: absolute;
     visibility: hidden;
-    width: 100%;
-    top: 34%;
-    left: 39%;
-    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
 }
 
 a:hover .play{
@@ -263,16 +282,10 @@ a:hover .img-cover{
    
 }
 
-/* .p-sticky{
-    position: sticky;
-    top: 0;
-    background-color: black;
-} */
-
 .topbar{
     height: 80px;
     background: black;
-    opacity:0.20;
+    opacity:0.70;
     z-index: 1;
     display: flex;
     justify-content: end;
@@ -342,7 +355,7 @@ h2{
 /* #region bottom */
 
 .bottom{
-    height: 80px;
+    height: 90px;
     background-color: #282828;
     width: 100%;
 
@@ -383,13 +396,7 @@ h2{
     font-size: 1.8rem;
 }
 
-.pt-1{
-    padding-top: 1rem;
-}
 
-.pb-1{
-    padding-bottom: 0.5rem;
-}
 
 .music-bar{
     content: "";
@@ -410,8 +417,6 @@ h2{
 .nowrap{
     flex-wrap: nowrap;
 }
-
-.space-evenly
 
 .heigth100{
     height: 100%;
