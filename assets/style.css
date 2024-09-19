@@ -256,12 +256,12 @@ body{
         margin-bottom: 1rem;
     }
 
-    .trasform-desk{
-        transform: translate(-3px, 7px);
-    }
     
 }
 
+.trasform-desk{
+    transform: translate(-3px, 7px);
+}
 
 
 .icon-hover:hover{
@@ -471,8 +471,8 @@ h2{
 }
 
 .circle{
-    border: 6px solid orange;
-    background-color: orange;
+    border: 6px solid white;
+    background-color: white;
     border-radius: 6px;
     display: inline-block;
     display: none;
@@ -486,8 +486,6 @@ h2{
 
 .dot:hover .circle, .music-bar{
     display:inline-block;
-
-    
 }
 
 .dot:hover .music-bar2{
@@ -715,6 +713,14 @@ h2{
 
     .margin{
         margin-left: 9px;
+    }
+
+    .icon-center-sm{
+        transform: translate(3px, 0px);
+    }
+
+    .icon-center-xsm{
+        transform: translate(1px, 0px)
     }
 
 }
