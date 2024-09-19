@@ -246,17 +246,19 @@ body{
         font-size: 30px;
     }
 
-    .border-bottom{
-        content: "";
-        display: block;
-        width: 11rem;
-        height: 1px;
-        background-color: #6e6e6e;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
+    
 
     
+}
+
+.border-bottom{
+    content: "";
+    display: block;
+    width: 11rem;
+    height: 1px;
+    background-color: #6e6e6e;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .trasform-desk{
@@ -707,7 +709,7 @@ h2{
     }
 
     .icon-center-xsm{
-        transform: translate(1px, 0px)
+        transform: translate(1px, -15px)
     }
 
 }
