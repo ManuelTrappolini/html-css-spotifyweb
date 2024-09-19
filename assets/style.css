@@ -522,12 +522,7 @@ h2{
     .col-1-lg{
         width: calc(100%/12*1)
     }
-
-    /* .img-player{
-        max-width: 30%;
-    } */
-
-    
+   
 }
 
 /* #endregion media query max-width 1100px*/
@@ -561,10 +556,6 @@ h2{
     .icon-col{
         flex-direction: column;
     }
-
-    /* .img-player{
-        max-width: 60%;
-    } */
 
     .music-bar{
         content: "";
@@ -663,10 +654,6 @@ h2{
     .icon-col{
         flex-direction: column;
     }
-
-   /*  .img-player{
-        max-width: 70%;
-    } */
 
     .music-bar{
         content: "";
